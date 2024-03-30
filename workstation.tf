@@ -1,5 +1,5 @@
 module "ec2_instance" {
-  source  = "terraform-aws-modules/ec2-instance/aws"
+  source  = "terraform-ec2-module/ec2-instance/aws"
 
   name = "workstation"
   
